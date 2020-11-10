@@ -75,5 +75,5 @@ stages:
               appType: webAppLinux
               appName: $(webAppName)
               runtimeStack: 'NODE|10.10'
-              package: $(System.DefaultWorkingDirectory)/**/*.zip
+              package: $(System.DefaultWorkingDirectory)
               startUpCommand: 'npm run start'
