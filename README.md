@@ -1,2 +1,6 @@
 # Lab2
- newLab
+#Deployment
+[Deployment](https://labweb2.azurewebsites.net/)
+
+#Production
+[Production](https://labweb2p.azurewebsites.net/)
