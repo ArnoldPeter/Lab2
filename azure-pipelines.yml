@@ -37,11 +37,9 @@ stages:
 
     - script: |
         npm install
-        npm install http-errors        
-        npm install mocha
         npm run build --if-present
-        npm run test --if-present
       displayName: 'npm install, build and test'
+      workingDirectory: $(Build.SourcesDirectory)
       
     - task: ArchiveFiles@2
       displayName: 'Archive files'
