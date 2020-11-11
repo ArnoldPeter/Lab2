@@ -37,6 +37,8 @@ stages:
 
     - script: |
         npm install
+        npm install http-errors        
+        npm install mocha
         npm run build --if-present
         npm run test --if-present
       displayName: 'npm install, build and test'
@@ -69,7 +71,7 @@ stages:
         deploy:
           steps:            
           - task: AzureWebApp@1
-            displayName: 'Azure Web App Deploy: LabWeb1'
+            displayName: 'Azure Web App Deploy: LabWeb2'
             inputs:
               azureSubscription: $(azureSubscription)
               appType: webAppLinux
