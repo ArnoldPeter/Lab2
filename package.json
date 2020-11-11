@@ -7,15 +7,12 @@
     "test": "mocha"
   },
   "dependencies": {
-    "clean-css": "^4.1.11",
     "cookie-parser": "~1.4.4",
-    "debug": "~4.1.1",
-    "express": "~4.17.1",
-    "g": "^2.0.1",
-    "http-errors": "~1.7.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
     "jade": "~1.11.0",
-    "mochaiasuhdfiuahsdfiuhasidufiuha": "^6.2.1",
-    "mocker": "^0.1.2",
+    "mocha": "^8.2.1",
     "morgan": "~1.9.1"
   },
   "main": "app.js"
