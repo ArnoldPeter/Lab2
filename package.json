@@ -17,5 +17,6 @@
     "mochaiasuhdfiuahsdfiuhasidufiuha": "^6.2.1",
     "mocker": "^0.1.2",
     "morgan": "~1.9.1"
-  }
+  },
+  "main": "app.js"
 }
